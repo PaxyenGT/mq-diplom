@@ -232,7 +232,7 @@
     background-size: cover;
     position: relative;
     z-index: 0;
-    width: auto;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -269,7 +269,7 @@
   }
   
   .trend-title {
-    width: auto;
+    width: 100%;
     color: #fff;
     font-size: 16px;
     text-transform: uppercase;
