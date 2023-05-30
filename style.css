@@ -307,7 +307,7 @@
     margin-top: 0;
   }
   .artical__public-image {
-    width: 330px;
+    max-width: 365px;
     height: 255px;
     margin-bottom: 15px;
   }
