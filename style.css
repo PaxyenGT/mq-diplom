@@ -519,6 +519,14 @@
   .shop__text {
     font-size: 15px;
   }
+   .shop__text-link {
+    color: #b59f5b;
+    font-size: inherit;
+  }
+  .shop__text-link:hover {
+    text-decoration: underline;
+    color: #b59f5b;
+  }
   .buy-not-summa {
     font-size: 14px;
     text-decoration: line-through;
@@ -681,7 +689,6 @@
     }
     .header__container {
       display: flex;
-      max-width: 800px;
       margin: 0 auto;
       padding: 45px 35px 0;
       box-sizing: content-box;
