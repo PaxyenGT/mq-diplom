@@ -218,6 +218,11 @@
     font-size: 16px;
     margin: 0;
   }
+  .aside__container-trend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3px;
+  }
   .aside__trend {
     min-width: 360px;
   }
@@ -605,11 +610,6 @@
     (min-width: 641px) and (max-width: 767px) {
     .header {
       background-image: url(images/banner-bg-tablet.jpg);
-    }
-    .aside__container-trend {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 3px;
     }
     .aside__article {
       min-height: 283px;
