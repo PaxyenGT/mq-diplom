@@ -312,8 +312,7 @@
     margin-top: 0;
   }
   .artical__public-image {
-    max-width: 365px;
-    height: 255px;
+    max-height: 71vw;
     margin-bottom: 15px;
   }
   .artical__public-title {
