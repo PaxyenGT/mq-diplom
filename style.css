@@ -262,7 +262,7 @@
   }
   
   .trend-item {
-    width: auto;
+    width: 100%;
     border: 3px solid #b59f5b;
     padding: 35px 25px 30px;
     margin: 20px;
