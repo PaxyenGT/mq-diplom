@@ -322,7 +322,7 @@ div.popup__sidebar {
   height: 100%;
 }
 .artical__public-title {
-  width: 340px;
+  min-width: 340px;
   font-size: 1rem;
   text-transform: uppercase;
   margin-bottom: 23px;
@@ -343,7 +343,7 @@ div.popup__sidebar {
   margin-bottom: 23px;
 }
 .artical__post-text {
-  width: 325px;
+  min-width: 325px;
   font-size: 14px;
   margin-bottom: 20px;
 }
@@ -657,10 +657,12 @@ div.popup__sidebar {
   .artical__public-post {
     width: 260px;
   }
-  .artical__public-title,
-  .artical__post-text {
-    width: 100%;
+  .artical__public-title {
+    width: 340px;
   }
+  .artical__post-text {
+    width: 325px;
+  }  
   .header__title {
     width: 400px;
   }
