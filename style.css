@@ -684,6 +684,10 @@ div.popup__sidebar {
   .shop__container {
     flex-grow: 1;
   }
+  .content-shop {
+    padding: 0 20px;
+    justify-content: space-between;
+  }
   .shop-image1 {
     background-image: url(images/shop-item-tablet1.jpg);
   }
