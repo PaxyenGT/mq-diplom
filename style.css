@@ -766,12 +766,6 @@ div.popup__sidebar {
     height: 302px;
     flex-shrink: 0;
   }
-
-  .artical__post-text,
-  .artical__public-title {
-    width: auto;
-  }
-
   .sidebar-main {
     width: 270px;
   }
