@@ -626,11 +626,7 @@ div.popup__sidebar {
   padding-bottom: 40px;
   display: block;
 }
-@media (min-width: 641px) and (max-width: 749px) {
-  .content-shop {
-    justify-content: center;
-  }
-}  
+
 @media (orientation: landscape) and (max-width: 640px),
   (min-width: 641px) and (max-width: 767px) {
   .header {
@@ -703,6 +699,11 @@ div.popup__sidebar {
     background-image: url(images/shop-item-tablet3.jpg);
   }
 }
+@media (min-width: 641px) and (max-width: 749px) {
+  .content-shop {
+    justify-content: center;
+  }
+}  
 @media (min-width: 768px) {
   .popup {
     width: 392px;
