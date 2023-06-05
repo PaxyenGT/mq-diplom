@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="ru">
 
@@ -13,6 +14,7 @@
 <body>
   <div class="popup__hidden">
     <div class="popup">
+      <div class="popup__close"><img src="svg/form-x.svg" alt=""></div>
       <div class="popup__sidebar sidebar__title">
         <h2>Ваш фидбек</h2>
       </div>
@@ -86,7 +88,7 @@
               <li class="categoria-frame"><a class="categoria-link" href="#0">Interior</a></li>
             </ul>
           </div>
-          <h3 class="trend-title">Сейчас в тренде: сад на подоконнике</h3>
+          <h3 class="trend-title hover-title"><a href="#0">Сейчас в тренде: сад на подоконнике</a></h3>
         </div>
       </article>
       <article class="aside__article article-bg2">
@@ -96,7 +98,7 @@
               <li class="categoria-frame"><a class="categoria-link" href="#0">Food</a></li>
             </ul>
           </div>
-          <h3 class="trend-title">сыры на красивых картинках из интернета: какие они на вкус?</h3>
+          <h3 class="trend-title hover-title"><a href="#0">сыры на красивых картинках из интернета: какие они на вкус?</a></h3>
         </div>
       </article>
       <article class="aside__article article-bg3">
@@ -107,7 +109,7 @@
               <li class="categoria-frame"><a class="categoria-link" href="#0">Travel</a></li>
             </ul>
           </div>
-          <h3 class="trend-title">Собираемся в первый поход в горы</h3>
+          <h3 class="trend-title hover-title"><a href="#0">Собираемся в первый поход в горы</a></h3>
         </div>
       </article>
       <article class="aside__article article-bg4">
@@ -118,7 +120,7 @@
               <li class="categoria-frame"><a class="categoria-link" href="#0">Health</a></li>
             </ul>
           </div>
-          <h3 class="trend-title">Сейчас в тренде: сколько витамина С в лимонах?</h3>
+          <h3 class="trend-title hover-title"><a href="#0">Сейчас в тренде: сколько витамина С в лимонах?</a></h3>
         </div>
       </article>
     </div>
@@ -346,7 +348,11 @@
     </div>
     <div class="content-shop">
       <article class="content-shop-item">
-        <div class="content__image shop-image1"></div>
+        <picture>
+          <source class="content__image" srcset="images/shop-item-tablet1.jpg" media="(min-width: 641px) and (max-width: 1200px)">
+          <source class="content__image" srcset="images/shop-item-desk1.jpg" media="(min-width: 1201px)">
+          <img class="content__image" src="images/shop-item-mobile1.jpg" alt="">
+        </picture>
         <div class="shop__container">
           <h2 class="shop__title">Подушки на диван</h2>
           <p class="shop__text">Набор из двух подушек с модными принтами. Видео о создании <a class="shop__text-link" href="#0">здесь</a>.</p>
@@ -355,12 +361,18 @@
               <span class="buy-not-summa">1000 ₽</span>
               <span class="buy-summa">800 ₽</span>
             </div>
-            <button class="shop__buy-button subscribe-button">В магазин</button>
+            <div class="shop__buy-button subscribe-button">
+              <a class="shop__buy-link" href="#0">В магазин</a>
+            </div>
           </div>
         </div>
       </article>
       <article class="content-shop-item">
-        <div class="content__image shop-image2"></div>
+        <picture>
+          <source class="content__image" srcset="images/shop-item-tablet2.jpg" media="(min-width: 641px) and (max-width: 1200px)">
+          <source class="content__image" srcset="images/shop-item-desk2.jpg" media="(min-width: 1201px)">
+          <img class="content__image" src="images/shop-item-mobile2.jpg" alt="">
+        </picture>
         <div class="shop__container">
           <h2 class="shop__title">Кукла «Зайчик»</h2>
           <p class="shop__text">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a class="shop__text-link" href="#0">весенняя серия постов</a> в блоге и несколько подкастов.</p>
@@ -368,12 +380,18 @@
             <div class="shop__buy-summa">
               <span class="buy-summa">3500 ₽</span>
             </div>
-            <button class="shop__buy-button subscribe-button">В магазин</button>
+            <div class="shop__buy-button subscribe-button">
+              <a class="shop__buy-link" href="#0">В магазин</a>
+            </div>
           </div>
         </div>
       </article>
       <article class="content-shop-item">
-        <div class="content__image shop-image3"></div>
+        <picture>
+          <source class="content__image" srcset="images/shop-item-tablet3.jpg" media="(min-width: 641px) and (max-width: 1200px)">
+          <source class="content__image" srcset="images/shop-item-desk3.jpg" media="(min-width: 1201px)">
+          <img class="content__image" src="images/shop-item-mobile3.jpg" alt="">
+        </picture>
         <div class="shop__container">
           <h2 class="shop__title">Шестиугольная рамка</h2>
           <p class="shop__text">Необычная рамка для украшения дома из видео <a class="shop__text-link" href="#0">«Как сделать рамку из подручных средств за 30 минут»</a></p>
@@ -382,7 +400,9 @@
               <span class="buy-not-summa">500 ₽</span>
               <span class="buy-summa">400 ₽</span>
             </div>
-            <button class="shop__buy-button subscribe-button">В магазин</button>
+            <div class="shop__buy-button subscribe-button">
+              <a class="shop__buy-link" href="#0">В магазин</a>
+            </div>
           </div>
         </div>
       </article>
